@@ -1,15 +1,39 @@
-# Vehicle-Entry-Exit-Control-System
-# Vehicle Entry and Exit Control System
+# Vehicle Entry-Exit Control System
 
-## Description
-A software system for managing vehicle entry and exit in an organization using license plate recognition cameras installed at barriers.
+## Project Description
+This project is a simple Vehicle Entry-Exit Control System developed in Python. It manages vehicle registration, gate registration, access permissions, and verifies whether a vehicle is allowed to enter through a specific gate.
 
 ## Features
-- Vehicle registration
-- Vehicle authorization
-- Entry management
-- Exit management
-- Traffic reports
+- Register vehicles
+- Register gates
+- Assign access permissions
+- Check vehicle access
+- Display registered vehicles
+- Display registered gates
 
-## Developer
+## Project Structure
+
+Vehicle-Entry-Exit-Control-System/
+│
+├── models/
+│   ├── vehicle.py
+│   ├── gate.py
+│   └── access_permission.py
+│
+├── main.py
+└── README.md
+
+
+## Technologies
+- Python 3
+- Object-Oriented Programming (OOP)
+
+## How to Run
+Run the following command:
+
+bash
+python main.py
+
+
+## Author
 Mahla Rigi
